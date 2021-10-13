@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #A42039;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.navbar{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+
+    li{
+        display: inline-block;
+        margin: 0px 15px;
+    }
+
+    a{
+        color: #E5E7EB;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        list-style: none;
+        list-style-type: none;
+    }
+
+    .brand{
+        color: #F9FAF8;
+        display: flex;
+        font-size: 24px;
+        font-variant: small-caps;
+        font-family: sans-serif;
+    }
+}
+
+.hero{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    padding: 125px 0px;
+    gap: 25px;
+
+    .hero-title{
+        color: #F9FAF8;
+        font-size: 48px;
+        font-family: sans-serif;
+        margin: 0;
+    }
+
+    .hero-text{
+        display: block;
+
+        .hero-para{
+            color: #E5E7EB;
+            margin: 0;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+
+    }
+
+    .hero-img{
+        display: block;
+
+        img{
+            border-radius: 15px;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .btn{
+        color: #F9FAF8;
+        border: none;
+        border-radius: 10px;
+        background-color: #FFD500;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: sans-serif;
+        margin: 5px 0px;
+        padding: 8px 35px;
+    }
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 5%;
+
+    .title{
+        color: #A42039;
+        font-family: sans-serif;
+        font-size: 36px;
+        margin: 5% auto;
+    }
+
+    .cards{
+        display: flex;
+        gap: 11px;
+
+        .card{
+            display: block;
+            max-width: 170px;
+
+            .card-img{
+                border: 5px solid #A42039;
+                border-radius: 15px;
+                max-width: 170px;
+                height: 170px;
+                object-fit: contain;
+            }
+
+        }
+        
+    }
+}
