@@ -145,6 +145,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   vertical-align: middle;
+  margin-bottom: 5%;
 }
 
 .random .title {
